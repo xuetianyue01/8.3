@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+#wrap header {
+  background: white;
+  width: 100%;
+  height: 1.44rem;
+  display: flex;
+  align-items: center;
+  border-bottom: .01rem solid #ccc;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+
+#wrap header > span {
+  font-size: .49rem;
+}
+
+#wrap header > p {
+  width: 2.89rem;
+  height: .96rem;
+  border: .02rem solid #ccc;
+  display: flex;
+  border-radius: .48rem;
+}
+
+#wrap header > p i {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap header > p i:nth-child(1) {
+  border-right: .01rem solid #ccc;
+}
+
+#wrap #scroll {
+  flex: 1;
+  overflow: hidden;
+}
+
+#wrap #scroll .scolo {
+  width: 100%;
+}
+
+#wrap #scroll .scolo .soso {
+  width: 100%;
+  height: 5.27rem;
+  border-bottom: .01rem solid #ccc;
+}
+
+#wrap #scroll .scolo .soso .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap #scroll .scolo .soso .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap #scroll .scolo .lj {
+  background: white;
+  width: 100%;
+  height: 2.8rem;
+  display: flex;
+}
+
+#wrap #scroll .scolo .lj dl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrap #scroll .scolo .lj dl dt {
+  width: 1.14rem;
+  height: 1.14rem;
+}
+
+#wrap #scroll .scolo .lj dl dt img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap #scroll .scolo .lj dl dd {
+  margin-top: .22rem;
+  font-size: .3rem;
+}
+
+#wrap #scroll .scolo .coso {
+  width: 100%;
+  height: 3.99rem;
+  margin-top: .37rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#wrap #scroll .scolo .coso > p {
+  width: 100%;
+  height: 1.55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso > p span {
+  font-size: .54rem;
+  font-weight: bold;
+  padding: 0 .1rem;
+}
+
+#wrap #scroll .scolo .coso .cov {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso .cov .left {
+  width: 3.01rem;
+  height: 2.03rem;
+  border: .02rem solid orange;
+  display: flex;
+  flex-direction: column;
+  border-radius: .05rem;
+}
+
+#wrap #scroll .scolo .coso .cov .left p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso .cov .left p:nth-child(1) {
+  width: 100%;
+  height: .84rem;
+  background: #f8f3eb;
+  font-size: .37rem;
+}
+
+#wrap #scroll .scolo .coso .cov .left p:nth-child(2) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso .cov .left p:nth-child(2) img {
+  width: .37rem;
+  height: .44rem;
+}
+
+#wrap #scroll .scolo .coso .cov .left p:nth-child(2) span {
+  font-size: .35rem;
+}
+
+#wrap #scroll .scolo .coso .cov .right {
+  width: 7.07rem;
+  height: 2.05rem;
+  border: .02rem solid orange;
+  border-radius: .05rem;
+  display: flex;
+}
+
+#wrap #scroll .scolo .coso .cov .right p {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(1) {
+  display: flex;
+  width: .87rem;
+  height: 100%;
+  font-size: .45rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(2) {
+  width: 3.97rem;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(2) span {
+  display: flex;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(2) span:nth-child(1) {
+  width: 100%;
+  height: 1.3rem;
+  font-size: .3rem;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(2) span:nth-child(2) {
+  width: .85rem;
+  height: .31rem;
+  line-height: .31rem;
+  text-align: center;
+  font-size: .23rem;
+  background: #be8e40;
+  border-radius: .02rem;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(3) {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .coso .cov .right p:nth-child(3) img {
+  width: 1.01rem;
+  height: 1.01rem;
+}
+
+#wrap #scroll .scolo .loved {
+  width: 100%;
+  height: auto;
+  margin-top: .37rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#wrap #scroll .scolo .loved .up {
+  width: 100%;
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .loved .up p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .loved .up p:nth-child(1) {
+  font-size: .5rem;
+  flex: 2;
+}
+
+#wrap #scroll .scolo .loved .up p:nth-child(2) {
+  font-size: .35rem;
+  flex: 1;
+}
+
+#wrap #scroll .scolo .loved .down {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+
+#wrap #scroll .scolo .loved .down dl {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrap #scroll .scolo .loved .down dl p {
+  font-size: .45rem;
+  text-align: center;
+  line-height: 1.42rem;
+}
+
+#wrap #scroll .scolo .loved .down dl dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap #scroll .scolo .loved .down dl dt img {
+  width: 2rem;
+  height: 2rem;
+}
+
+#wrap footer {
+  width: 100%;
+  height: 1.63rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: .01rem solid #ccc;
+  background: white;
+  display: flex;
+}
+
+#wrap footer dl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrap footer dl dt {
+  width: .57rem;
+  height: .63rem;
+  display: flex;
+}
+
+#wrap footer dl dt img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap footer dl dd {
+  font-size: .33rem;
+  margin-top: .1rem;
+}
